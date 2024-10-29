@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmacia Evil Seed</title>
+</head>
+<body>
+
+  <header>
+    <img src="https://tse1.mm.bing.net/th?id=OIG1.iDK0.SZCrdZ69Ya56xxn&pid=ImgGn" alt="Logo" width="200" height="200">
+  </header>
+
+  ><main>
+    <Section>
+      <h1>Cadastro</h1>
+      <h2>Mentoria Front-End</h2>
+      <form>
+        <!--Area de colocar o nome-->
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" placeholder="Digite aqui" required>
+        </div>
+        <!--area de email-->
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" placeholder="Digite aqui" required>
+        </div>
+        <!--area de descricao-->
+        <div>
+          <label for="Descricao">Descricao:</label>
+          <textarea placeholder="Digite uma descricao sobre voce aqui!"></textarea>
+          
+        </div>
+        <!--area de multipla escolha-->
+        <div>
+          <label for="tecnologia">Tecnologia:</label>
+          <select name="tecnologia"><option value="">Selecione uma tecnologia</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+          </select>          
+        </div>
+        <!--Area de senha-->
+        <div>
+          <label for="senha">Senha:</label>
+          <input type="password" name="senha" id="senha" minlength="8" required>
+        </div>
+        <div>
+          <label for="senha">Confirmar Senha:</label>
+          <input type="password" name="senha" id="senha" minlength="8" required>
+        </div>
+      </form>
+    <section>
+      <!--area de escolha-->
+      <div>
+        <label for="novidades">Deseja receber novidades em seu email?</label>
+        <form>
+          <label for="sim">Sim</label>
+          <input type="radio" id="sim" name="resposta" value="sim">
+          
+          <label for="nao">Nao</label>
+          <input type="radio" id="nao" name="resposta" value="nao">
+        </form>
+        </div>
+        <!--Botao de cadastro-->
+        <div>
+        <input type="submit" value="Cadastrar">
+        </div>
+    </section>
+  </main>
+
+</body>
+</html>
